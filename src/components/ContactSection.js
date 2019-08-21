@@ -15,7 +15,7 @@ const renderContacts = (contacts = []) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={img} alt={contact.name} width="150" />
+          <img src={img} alt={contact.name} width="50" />
         </a>
       );
     })}
