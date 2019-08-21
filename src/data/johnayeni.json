@@ -1,0 +1,98 @@
+{
+  "header": {
+    "links": [
+      {
+        "text": "#Works",
+        "to": "works"
+      },
+      {
+        "text": "Blog",
+        "to": "https://devdesigner.xyz"
+      },
+      {
+        "text": "Resume",
+        "to": "http://bit.ly/john-ayeni-resume-2019"
+      },
+      {
+        "text": "#Contact",
+        "to": "contact"
+      }
+    ]
+  },
+  "about": [
+    "My name is John Ayeni . I am a Front-end Engineer and Designer.",
+    "I build and design awesome Web and Mobile apps.",
+    "When I am not coding, I am either writing, playing games or drawing.",
+    "I also love to attend at tech events."
+  ],
+  "works": [
+    {
+      "title": "FieldInsight V2",
+      "description": "I worked at FieldInsight.co where I was a core engineer on the version 2 of thier mobile and web app.",
+      "links": [
+        {
+          "text": "Web App",
+          "to": "http://app.fieldinsight.co"
+        },
+        {
+          "text": "Mobile App",
+          "to": "#Works"
+        }
+      ]
+    },
+    {
+      "title": "School Review Hub",
+      "description": "A web app I and some of friends built for anonymous rating of Nigerian Universities.",
+      "links": [
+        {
+          "text": "Web App",
+          "to": "https://schoolreviewhub.herokuapp.com"
+        }
+      ]
+    },
+    {
+      "title": "Star wars Directoy",
+      "description": "A PWA that serves as a directory for Starwars characters, planets and spaceships.",
+      "links": [
+        {
+          "text": "Web App",
+          "to": "https://star-wars-directory.netlify.com"
+        }
+      ]
+    }
+  ],
+  "resume": "http://bit.ly/john-ayeni-resume-2019",
+  "email": "johnayeni10.aj@gmail.com",
+  "contacts": [
+    {
+      "name": "Github",
+      "link": "https://github.com/johnayeni",
+      "logo": "github.svg"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://mobile.twitter.com/johnayeni_",
+      "logo": "twitter.svg"
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://linkedin.com/in/john-ayeni-ifeoluwapo/",
+      "logo": "linkedin.svg"
+    },
+    {
+      "name": "Dribbble",
+      "link": "https://dribbble.com/johnayeni",
+      "logo": "dribbble.svg"
+    },
+    {
+      "name": "Codepen",
+      "link": "https://codepen.io/johnayeni_/",
+      "logo": "codepen.svg"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://instagram.com/johnayeni_/",
+      "logo": "instagram.svg"
+    }
+  ]
+}

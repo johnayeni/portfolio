@@ -1,0 +1,77 @@
+$black: #000000;
+$firered: #ff575d;
+$cream: #fefed3;
+$mobile-width: 768px;
+$desktop-width: 1440px;
+
+@font-face {
+  font-family: 'Dosis Medium';
+  src: url('../fonts/Dosis-Medium.ttf');
+}
+@font-face {
+  font-family: 'Dosis Bold';
+  src: url('../fonts/Dosis-Bold.ttf');
+}
+@font-face {
+  font-family: 'Dosis SemiBold';
+  src: url('../fonts/Dosis-SemiBold.ttf');
+}
+
+@mixin flex(
+  $direction: row,
+  $flex-wrap: nowrap,
+  $justify-content: flex-start,
+  $align-items: stretch
+) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $flex-wrap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+body {
+  font-family: 'Dosis Medium', sans-serif;
+  color: $black;
+  background-color: $cream;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dosis Bold';
+}
+
+a {
+  color: $black;
+  font-family: 'Dosis SemiBold';
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    color: $firered;
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
