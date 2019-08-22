@@ -26,7 +26,7 @@ const Nav = () => {
                   to={link.to}
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-100}
                   duration={500}
                 >
                   {link.text}

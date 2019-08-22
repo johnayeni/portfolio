@@ -5,7 +5,7 @@ const renderItemLinks = (links = []) => (
   <React.Fragment>
     {links.map((link, index) => (
       <li key={index}>
-        <a href={link.to}>{link.text}</a>
+        <a href={link.to} target="_blank" rel="noopener noreferrer">{link.text}</a>
       </li>
     ))}
   </React.Fragment>
