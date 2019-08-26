@@ -6,9 +6,9 @@ const AboutSection = () => {
   const { about } = data;
   return (
     <div id="about">
-      <h1>Hi there,</h1>
+      <h1>About</h1>
       {about.map((text, index) => (
-        <h2 key={index}>
+        <h4 key={index}>
           <Typewriter
             options={{
               cursor: '',
@@ -22,7 +22,7 @@ const AboutSection = () => {
                 .start();
             }}
           />
-        </h2>
+        </h4>
       ))}
     </div>
   );

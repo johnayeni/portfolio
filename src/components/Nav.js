@@ -15,6 +15,7 @@ const Nav = () => {
             src={logo}
             alt="John Ayeni"
             onClick={() => scroll.scrollToTop()}
+            width="50"
           />
         </div>
         <ul className="links">

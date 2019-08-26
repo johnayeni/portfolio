@@ -1,6 +1,5 @@
-$black: #000000;
-$firered: #ff575d;
-$cream: #fefed3;
+$black: #1b1b1b;
+$mint: #429e9d;
 $mobile-width: 768px;
 $desktop-width: 1440px;
 
@@ -9,12 +8,16 @@ $desktop-width: 1440px;
   src: url('../fonts/Dosis-Medium.ttf');
 }
 @font-face {
+  font-family: 'Dosis SemiBold';
+  src: url('../fonts/Dosis-SemiBold.ttf');
+}
+@font-face {
   font-family: 'Dosis Bold';
   src: url('../fonts/Dosis-Bold.ttf');
 }
 @font-face {
-  font-family: 'Dosis SemiBold';
-  src: url('../fonts/Dosis-SemiBold.ttf');
+  font-family: 'Soosick';
+  src: url('../fonts/soooooooosick.ttf');
 }
 
 @mixin flex(
@@ -45,25 +48,38 @@ $desktop-width: 1440px;
 body {
   font-family: 'Dosis Medium', sans-serif;
   color: $black;
-  background-color: $cream;
+  margin: 0;
+  @include desktop {
+    border: 20px solid $black;
+  }
 }
 
-h1,
+h1 {
+  background-image: linear-gradient(to right, $mint 50%, $mint 50%);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 200% 15px;
+  font-family: 'Soosick', sans-serif;
+  text-transform: uppercase;
+  align-content: flex-start;
+  display: inline-block;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Dosis Bold';
+  font-family: 'Dosis Bold', sans-serif;
 }
 
 a {
   color: $black;
-  font-family: 'Dosis SemiBold';
+  font-family: 'Dosis SemiBold', sans-serif;
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    color: $firered;
+    color: $mint;
   }
 }
 
