@@ -1,7 +1,7 @@
 import React from 'react';
 import data from 'data/johnayeni.json';
 
-const images = require.context('assets/img', true);
+const images = require.context('assets/img', true, /.svg$/);
 
 const renderContacts = (contacts = []) => (
   <React.Fragment>
