@@ -37,6 +37,7 @@ const Nav = () => {
                   href={link.to}
                   className="underline"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {link.text}
                 </a>
