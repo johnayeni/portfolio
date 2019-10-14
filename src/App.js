@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import AboutSection from './components/AboutSection';
-import WorkSection from './components/WorkSection';
+// import WorkSection from './components/WorkSection';
 import ContactSection from './components/ContactSection';
 import SectionDivider from './components/SectionDivider';
 import Footer from './components/Footer';
@@ -13,8 +13,8 @@ const App = () => {
       <div className="main-container">
         <main>
           <AboutSection />
-          <SectionDivider />
-          <WorkSection />
+          {/* <SectionDivider /> */}
+          {/* <WorkSection /> */}
           <SectionDivider />
           <ContactSection />
         </main>

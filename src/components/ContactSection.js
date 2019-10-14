@@ -28,10 +28,8 @@ const ContactSection = () => {
     <div id="contact" className="section">
       <h1>Contact</h1>
       <p>
-        Find me on the following platforms to see more of my work or to know
-        more about me.
-        <br /> You can also shoot me an email at{' '}
-        <a href={`mailto:${email}`}>{email}.</a>
+        Find me on the following platforms to see my work or to know more about me.
+        <br /> You can also shoot me an email at <a href={`mailto:${email}`}>{email}.</a>
       </p>
       <div className="items">{renderContacts(contacts)}</div>
     </div>
