@@ -11,11 +11,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({
+  // @ts-expect-error
   params,
-}: {
-  params: {
-    slug: string;
-  };
 }): Promise<Metadata | undefined> {
   let post = await getPost(params.slug);
 
@@ -51,13 +48,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function Blog({
-  params,
-}: {
-  params: {
-    slug: string;
-  };
-}) {
+// @ts-expect-error
+export default async function Blog({ params }) {
   let post = await getPost(params.slug);
 
   if (!post) {

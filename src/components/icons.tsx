@@ -20,7 +20,7 @@ export const Icons = {
       viewBox="0 0 16 18"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}>
+      {...props}
     >
       <g>
         <title>Substack</title>

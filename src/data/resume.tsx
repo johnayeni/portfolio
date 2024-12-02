@@ -83,6 +83,7 @@ export const DATA = {
     {
       company: "Paystack (Stripe company)",
       href: "https://paystack.com/",
+      badges: [],
       location: "Lagos",
       title: "Front-End Engineer",
       start: "May 2021",
@@ -94,6 +95,7 @@ export const DATA = {
     {
       company: "Busha",
       href: "https://www.busha.co/",
+      badges: [],
       location: "Lagos",
       title: "Front-End Engineer",
       start: "Oct 2019",
@@ -104,6 +106,7 @@ export const DATA = {
     },
     {
       company: "Stallsone",
+      badges: [],
       href: null,
       location: "Remote",
       title: "Cofounder",
@@ -115,6 +118,7 @@ export const DATA = {
     },
     {
       company: "Fieldinsight",
+      badges: [],
       href: "https://fieldinsight.co/",
       location: "Lagos",
       title: "Software Engineer",
@@ -127,6 +131,7 @@ export const DATA = {
     {
       company: "Fieldinsight",
       href: "https://fieldinsight.co/",
+      badges: [],
       location: "Lagos",
       title: "Software Engineer Intern",
       start: "Apr 2018",
@@ -138,7 +143,9 @@ export const DATA = {
     {
       company: "Trivoda Digital",
       href: "https://www.linkedin.com/company/trivoda/about/",
+      badges: [],
       location: "Lagos",
+      logoUrl: "",
       title: "Software Engineer Intern",
       start: "Jan 2018",
       end: "Mar 2018",
