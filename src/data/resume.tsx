@@ -162,6 +162,14 @@ export const DATA = {
       start: "2015",
       end: "2019",
     },
+    {
+      school: "Udacity",
+      href: "https://www.udacity.com/",
+      degree: "Nano degree - Mobile Web Specialist",
+      logoUrl: "/udacity.svg",
+      start: "2018",
+      end: "2018",
+    },
   ],
   projects: [
     {

@@ -162,7 +162,7 @@ export default function Page() {
                 Want to chat? Just{" "}
                 <Link
                   href={DATA.contact.social.Email.url}
-                  className="text-blue-500 hover:underline"
+                  className="text-foreground underline"
                 >
                   send me an email
                 </Link>{" "}
