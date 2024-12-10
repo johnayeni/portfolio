@@ -9,29 +9,26 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/amsterdam",
   description:
     "Software Engineer with a dream of changing the world through the use of computers.",
-  summary: `I got into computer science because I wanted to learn how to make games. I didn’t write my first line of code until college, but that moment completely changed my life.
-  I’ve spent most of my career as a Frontend developer, but along the way, I decided to branch out and become a Fullstack engineer to enable me in crafting more comprehensive and impactful solutions.
-    `,
+  summary: `As a Senior Software Engineer at Catawiki, the leading online marketplace for special objects, I leverage my expertise in front-end engineering, fintech, and logistics domains to deliver high-quality, user-friendly web applications.
+
+I am passionate about creating innovative and impactful solutions that solve real-world problems and add value to users and businesses. I am always eager to learn new skills and technologies and to collaborate with diverse and talented teams.
+
+Aside from typing away on my keyboard and writing code, I [write](https://limestack.substack.com/), take really [cool photos](https://unsplash.com/@johnayeni), [edit videos](https://www.youtube.com/@insidethetechosystem), and also play football and basketball. I kinda have a [design resume](https://johnayeni.notion.site/John-Ayeni-Design-portfolio-07925ee1819747f3bc96a04ca10613dd?pvs=74) too :)`,
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Javascript",
-    "Typescript",
-    "Node.js",
-    "Ruby",
-    "Go",
-    "Rails",
-    "MySQL",
-    "MongoDB",
-    "Angular",
-    "Docker",
-    "Vue.js",
+    "Fullstack Software development",
+    "Writing",
+    "Video Editing",
+    "Photography",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/resume.pdf", icon: ScrollTextIcon, label: "Resume" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    {
+      href: "https://limestack.substack.com/",
+      icon: NotebookIcon,
+      label: "Blog",
+    },
   ],
   contact: {
     email: "johnayeni10.aj@gmail.com",
@@ -52,7 +49,7 @@ export const DATA = {
       },
       Substack: {
         name: "Substack",
-        url: "https://limestack.substack.com/",
+        url: "https://johnayeni.substack.com/",
         icon: Icons.substack,
 
         navbar: true,
@@ -78,7 +75,7 @@ export const DATA = {
       start: "November 2021",
       end: "Present",
       description:
-        "Developed a web tool that reduced customer service ticket backlogs by 60% in 3 months and scaled the solution to mobile apps using web views. Designed an internal tool to track Web Vitals, improving visibility into performance metrics. Led the frontend development for cross-border transactions, enabling 16,000 sellers to provide customs information. Boosted mobile web messaging accessibility by 30% and increased shipping label success rates by 7.7% through A/B testing. Contributed to developer productivity by managing runtime utility libraries and spearheading the migration of 40% of web pages to Next.js for faster performance",
+        "Catawiki is the leading online marketplace to buy and sell special objects. Over 75,000 objects are offered in auction every week - each reviewed and selected by one of Catawiki’s hundreds of in-house experts specialised in Art, Design, Jewellery, Fashion, Classic Cars, Collectables and much more. Catawiki is headquartered in Amsterdam with over 750 employees across the world. ",
     },
     {
       company: "Paystack (Stripe company)",
@@ -90,7 +87,7 @@ export const DATA = {
       end: "Oct 2021",
       logoUrl: "/paystack.png",
       description:
-        "Increased customer authorization rates in 60+ countries by integrating Apple Pay, Amex, and Pay Attitude into the checkout system. Improved developer experience with new APIs for smoother third-party integration.",
+        "Over 60,000 businesses trust Paystack to help accept online and offline payments from anyone, anywhere in the world.",
     },
     {
       company: "Busha",
@@ -102,19 +99,7 @@ export const DATA = {
       end: "Apr 2021",
       logoUrl: "/busha.svg",
       description:
-        "Designed the architecture and implemented the custodial trading web client for customers to buy and sell cryptocurrencies. The platform processed over 200 million dollars in the year 2020",
-    },
-    {
-      company: "Stallsone",
-      badges: [],
-      href: null,
-      location: "Remote",
-      title: "Cofounder",
-      start: "June 2019",
-      end: "Nov 2021",
-      logoUrl: "/stalls.svg",
-      description:
-        "Built a web-based order management dashboard for logistics and a mobile app for inventory, payment, and order management, simplifying operations for small businesses.",
+        "Busha is one of Africa’s leading digital asset platforms. They are on a mission to onboard millions of Africans into the crypto economy and are building software and services that will enable it's users to experience the blockchain-enabled future of finance.",
     },
     {
       company: "Fieldinsight",
@@ -126,7 +111,7 @@ export const DATA = {
       end: "Jul 2019",
       logoUrl: "/field-insight.svg",
       description:
-        "Added offline support for mobile platforms to ensure functionality without network access. Improved dashboard performance from 76% to 97% with frontend refactoring.",
+        "Fieldinsight was a customer relationship management solution built for activities in the field to strengthen companies’ bond with their customers. It was a platform that works offline and online helping teams in the field — including, field-sales, customer service and logistics, all working together to ensure customer satisfaction",
     },
     {
       company: "Fieldinsight",
@@ -138,7 +123,7 @@ export const DATA = {
       end: "Jul 2018",
       logoUrl: "/field-insight.svg",
       description:
-        "Refactored codebases to ES6 standards, enhancing maintainability. Fixed critical bugs, increasing platform stability and user satisfaction.",
+        "Fieldinsight was a customer relationship management solution built for activities in the field to strengthen companies’ bond with their customers. It was a platform that works offline and online helping teams in the field — including, field-sales, customer service and logistics, all working together to ensure customer satisfaction",
     },
     {
       company: "Trivoda Digital",
@@ -150,7 +135,7 @@ export const DATA = {
       start: "Jan 2018",
       end: "Mar 2018",
       description:
-        "Built a progressive web app integrating social media (Facebook, Twitter, Instagram), enabling influencers to earn by promoting client products.",
+        "Trivoda digital a full service digital agency helping organizations achieve their bottom-line through experiential digital marketing.",
     },
   ],
   education: [
@@ -162,8 +147,10 @@ export const DATA = {
       start: "2015",
       end: "2019",
     },
+  ],
+  certifications: [
     {
-      school: "Udacity",
+      org: "Udacity",
       href: "https://www.udacity.com/",
       degree: "Nano degree - Mobile Web Specialist",
       logoUrl: "/udacity.svg",
@@ -172,6 +159,50 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Inside the Techosystem",
+      href: "https://insidethetechosystem.com/",
+      dates: "2019 - Present",
+      active: true,
+      description:
+        "Inside the Techosystem is a tech podcast bringing you fun and insightful topics about tech and its ecosystem in Nigeria. I make all our media assets and content and serve as the gate keeper of the brand.",
+      technologies: ["Davinci Resolve", "Figma", "Canva"],
+      links: [
+        {
+          type: "Website",
+          href: "https://insidethetechosystem.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Youtube",
+          href: "https://www.youtube.com/@insidethetechosystem",
+          icon: <Icons.youtube className="size-3" />,
+        },
+      ],
+      image: "/itt.png",
+    },
+    {
+      title: "Naija Guru Spell Checker",
+      href: "https://spellchecker.naija.guru/",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "Naija Spell Checker is an Open Source proofreading software for Pidgin English",
+      technologies: ["React", "Typescript", "Tailwind", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://spellchecker.naija.guru/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/Naija-Guru/naija-spell-checker",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/naija-guru.png",
+    },
     {
       title: "Grey finance (YC W'22) - Freelance",
       href: "https://grey.co/",
@@ -190,28 +221,6 @@ export const DATA = {
       image: "/grey-bg.svg",
     },
     {
-      title: "Naija Guru Spell Checker",
-      href: "https://spellchecker.naija.guru/",
-      dates: "2024",
-      active: true,
-      description:
-        "Naija Spell Checker is an Open Source proofreading software for Pidgin English",
-      technologies: ["React", "Typescript", "Tailwind", "Next.js"],
-      links: [
-        {
-          type: "Website",
-          href: "https://spellchecker.naija.guru/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Github",
-          href: "https://github.com/Naija-Guru/naija-spell-checker",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/naija-guru-bg.png",
-    },
-    {
       title: "Faith Egwuenu Portfolio",
       href: "https://www.faithegwuenu.design/",
       dates: "2024",
@@ -226,6 +235,28 @@ export const DATA = {
         },
       ],
       image: "/faith-egwuenu-bg.png",
+    },
+    {
+      title: "Stalls",
+      href: "https://www.faithegwuenu.design/",
+      dates: "2019 - 2021",
+      active: true,
+      description:
+        "Stalls was platform that aimed to simplifying operations for small businesses. I built a web-based order management dashboard for logistics and a mobile app for inventory, payment, and order management.",
+      technologies: ["React Native", "Node.js"],
+      links: [
+        {
+          type: "Demo",
+          href: "https://www.youtube.com/watch?v=-rKe9O4P-jU&ab_channel=AyeniJohn",
+          icon: <Icons.youtube className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://www.youtube.com/watch?v=tMdBstgKOhA&ab_channel=AyeniJohn",
+          icon: <Icons.youtube className="size-3" />,
+        },
+      ],
+      image: "/stalls.png",
     },
   ],
 } as const;

@@ -95,10 +95,33 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="certifications">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Certifications</h2>
+          </BlurFade>
+          {DATA.certifications.map((certification, id) => (
+            <BlurFade
+              key={certification.org}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={certification.org}
+                href={certification.href}
+                logoUrl={certification.logoUrl}
+                altText={certification.org}
+                title={certification.org}
+                subtitle={certification.degree}
+                period={`${certification.start} - ${certification.end}`}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Stuff I can do</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -118,11 +141,12 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Side quests and freelance work
+                  Entrepreneurial and Freelance
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are some of them
+                  I really love to build, hence I enjoy getting my hands busy
+                  even when my 9-5 does not require it. Below is the result of
+                  that
                 </p>
               </div>
             </div>
