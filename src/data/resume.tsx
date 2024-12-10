@@ -151,7 +151,7 @@ Aside from typing away on my keyboard and writing code, I [write](https://limest
   certifications: [
     {
       org: "Udacity",
-      href: "https://www.udacity.com/",
+      href: "https://drive.google.com/file/d/17Nrjv2SeBZhajZ0c7mvbw5ZSQAa7Csok/view",
       degree: "Nano degree - Mobile Web Specialist",
       logoUrl: "/udacity.svg",
       start: "2018",
