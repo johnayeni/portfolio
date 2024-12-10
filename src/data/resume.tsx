@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer with a dream of changing the world through the use of computers.",
   summary: `As a Senior Software Engineer at Catawiki, the leading online marketplace for special objects, I leverage my expertise in front-end engineering, fintech, and logistics domains to deliver high-quality, user-friendly web applications.
 
-I am passionate about creating innovative and impactful solutions that solve real-world problems and add value to users and businesses. I am always eager to learn new skills and technologies and to collaborate with diverse and talented teams.
+I am passionate about creating innovative and impactful solutions that solve real-world problems and add value to users and businesses. I am always eager to learn new skills and technologies and to collaborate with diverse and talented teams. You can learn all about this through my [resume](https://www.johnayeni.com/resume.pdf)
 
 Aside from typing away on my keyboard and writing code, I [write](https://limestack.substack.com/), take really [cool photos](https://unsplash.com/@johnayeni), [edit videos](https://www.youtube.com/@insidethetechosystem), and also play football and basketball. I kinda have a [design resume](https://johnayeni.notion.site/John-Ayeni-Design-portfolio-07925ee1819747f3bc96a04ca10613dd?pvs=74) too :)`,
   avatarUrl: "/me.png",
