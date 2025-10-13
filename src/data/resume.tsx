@@ -9,9 +9,11 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/amsterdam",
   description:
     "Software Engineer with a dream of changing the world through the use of computers.",
-  summary: `As a Senior Software Engineer at Catawiki, the leading online marketplace for special objects, I leverage my expertise in front-end engineering, fintech, and logistics domains to deliver high-quality, user-friendly web applications.
+  summary: `I am currently a Senior Software Engineer at Adyen, helping businesses scale globally through support for international and local payment methods on the [Adyen Web SDK](https://github.com/Adyen/adyen-web).
 
-I am passionate about creating innovative and impactful solutions that solve real-world problems and add value to users and businesses. I am always eager to learn new skills and technologies and to collaborate with diverse and talented teams. You can learn all about this through my [resume](https://www.johnayeni.com/resume.pdf)
+I am passionate about creating innovative and impactful solutions that solve real-world problems and add value to users and businesses. I am always eager to learn new skills and technologies and to collaborate with diverse and talented teams. You can learn all about this through my [resume](https://www.johnayeni.com/resume.pdf).
+
+I am a product of wonderful people that have given to thier communities and so I also try my best to do so. I mentor computer science students from my Alma mater, Covenant University through [BigTheta](https://bigtheta.org/), a fellowship I started with some friends and I also volunteer in the Creative and Production team of [C3 Imagine](https://c3imagine.church/en/).
 
 Aside from typing away on my keyboard and writing code, I [write](https://limestack.substack.com/), take really [cool photos](https://unsplash.com/@johnayeni), [edit videos](https://www.youtube.com/@insidethetechosystem), and also play football and basketball. I kinda have a [design resume](https://johnayeni.notion.site/John-Ayeni-Design-portfolio-07925ee1819747f3bc96a04ca10613dd?pvs=74) too :)`,
   avatarUrl: "/me.png",
@@ -66,6 +68,18 @@ Aside from typing away on my keyboard and writing code, I [write](https://limest
 
   work: [
     {
+      company: "Adyen",
+      href: "https://www.adyen.com/",
+      badges: [],
+      location: "Amsterdam",
+      title: "Senior Software Engineer",
+      logoUrl: "/adyen.svg",
+      start: "September 2025",
+      end: "Present",
+      description:
+        "Adyen is a leading financial services company that helps businesses expand globally.",
+    },
+    {
       company: "Catawiki",
       href: "https://www.catawiki.com/en/",
       badges: [],
@@ -73,7 +87,7 @@ Aside from typing away on my keyboard and writing code, I [write](https://limest
       title: "Senior Software Engineer",
       logoUrl: "/catawiki.svg",
       start: "November 2021",
-      end: "Present",
+      end: "August 2025",
       description:
         "Catawiki is the leading online marketplace to buy and sell special objects. Over 75,000 objects are offered in auction every week - each reviewed and selected by one of Catawiki’s hundreds of in-house experts specialised in Art, Design, Jewellery, Fashion, Classic Cars, Collectables and much more. Catawiki is headquartered in Amsterdam with over 750 employees across the world. ",
     },
